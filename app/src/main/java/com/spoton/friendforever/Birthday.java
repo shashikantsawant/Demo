@@ -15,7 +15,7 @@ public class Birthday extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageView birthDay=(ImageView) findViewById(R.id.imageView);
+        ImageView birthDay=(ImageView)  findViewById(R.id.imageView);
              birthDay.setImageResource(R.drawable.b2);
       }
 }
